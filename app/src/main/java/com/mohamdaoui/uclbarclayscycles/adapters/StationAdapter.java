@@ -44,7 +44,7 @@ public class StationAdapter extends RecyclerView.Adapter<StationAdapter.MyViewHo
         @Override
         public void onClick(View v) {
             if (mItemClickListener != null) {
-                mItemClickListener.onItemClick(itemView, getPosition());
+                mItemClickListener.onItemClick(itemView, getAdapterPosition());
             }
         }
     }
